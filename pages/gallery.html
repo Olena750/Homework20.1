@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Галерея троянд</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-    <header>
-        <h1>Галерея троянд</h1>
-        <nav aria-label="Головна навігація">
-            <a href="../index.html">Головна</a> |
-            <a href="gallery.html">Галерея</a> |
+<body class="gallery-page">
+    <header id="site-header" class="site-header">
+        <h1 class="page-title">Галерея троянд</h1>
+        <nav id="primary-navigation" class="site-nav" aria-label="Головна навігація">
+            <a href="../index.html">Головна</a>
+            <a href="gallery.html">Галерея</a>
             <a href="contact.html">Контакти</a>
         </nav>
     </header>
 
-    <main>
-        <h2>Три троянди</h2>
-        <figure>
-            <img src="../photo/20230723_105946.jpg" alt="Троянда з особистої фотогалереї" width="400">
+    <main id="gallery-content" class="page-content gallery">
+        <h2 id="gallery-title" class="section-title">Три троянди</h2>
+        <figure class="gallery-item">
+            <img class="gallery-image" src="../photo/20230723_105946.jpg" alt="Троянда з особистої фотогалереї" width="400">
             <figcaption>Троянда — фото 1</figcaption>
         </figure>
-        <figure>
-            <img src="../photo/20230905_162839.jpg" alt="Троянда з особистої фотогалереї" width="400">
+        <figure class="gallery-item">
+            <img class="gallery-image" src="../photo/20230905_162839.jpg" alt="Троянда з особистої фотогалереї" width="400">
             <figcaption>Троянда — фото 2</figcaption>
         </figure>
-        <figure>
-            <img src="../photo/20250617_203413.jpg" alt="Троянда з особистої фотогалереї" width="400">
+        <figure class="gallery-item">
+            <img class="gallery-image" src="../photo/20250617_203413.jpg" alt="Троянда з особистої фотогалереї" width="400">
             <figcaption>Троянда — фото 3</figcaption>
         </figure>
     </main>
 
-    <footer>
+    <footer id="site-footer" class="site-footer">
         <p><a href="../index.html">Повернутися на головну</a></p>
     </footer>
 </body>
